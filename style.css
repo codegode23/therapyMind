@@ -17,6 +17,11 @@ header{
     padding: 1vw;
 }
 
+header .logo img{
+    width: 100%;
+    max-width: 150px;
+}
+
 #menu-bar{
     font-size: 20px;
     display: none;
@@ -74,6 +79,7 @@ nav .contact-us:hover{
         flex-direction: column;
         padding: 1%;
         box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+        background: #fff;
     }
     nav.active{
         top: 12%;
@@ -92,4 +98,17 @@ nav .contact-us:hover{
         text-align: center;
     }
 
+}
+
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(imgs/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.home-content{
+    border: 1px solid #fff;
 }
