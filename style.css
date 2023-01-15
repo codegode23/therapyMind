@@ -10,7 +10,6 @@
 
 
 header{
-    border:1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -109,6 +108,61 @@ nav .contact-us:hover{
     background-size: cover;
 }
 
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .home-content{
-    border: 1px solid #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content h1{
+    color: #fff;
+    font-size: 40px;
+    padding: 2vw;
+}
+
+.home-content .button{
+    padding: 10px 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.home-content .button i{
+    font-size: 9px;
+    position: absolute;
+    right: 1.5vw;
+}
+
+@media screen and (max-width:600px) {
+    .home-content h1{
+        font-size: 25px;
+        padding: 1vw;
+    }
+
+
+    .home-content .button{
+        padding: 8px 30px;
+    }
+
+    .home-content .button h5{
+       
+    }
+    
+    .home-content .button i{
+        font-size: 9px;
+        position: absolute;
+        right: 1.5vw;
+    }
 }
