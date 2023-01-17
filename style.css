@@ -329,3 +329,62 @@ nav .contact-us:hover{
     background-color: #91D497;
     color: #fff;
 }
+
+@media screen and (max-width:678px) {
+    .appoint .left-form{
+        width: 100%;
+    }
+
+    .appoint img{
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
+
+/*Services Section*/
+
+#services{
+    width: 100%;
+    margin-top: 6%;
+}
+
+.serve-title{
+    text-align: center;
+}
+
+.serve-title h1{
+    margin-bottom: 3%;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.serve-title h3{
+    font-weight: 100;
+}
+
+.serve-container{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+.serve-container .serve-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.serve-box img{
+    width: 100%;
+    max-width: 270px;
+    margin-bottom: 8%;
+}
+
+.serve-box h2{
+    font-weight: 200;
+}
