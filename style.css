@@ -436,3 +436,58 @@ nav .contact-us:hover{
         margin-top: 5%;
     }
 }
+
+
+/*Philosophy Section Starts*/
+
+#philo{
+    width: 100%;
+    margin-top: 4vw;
+}
+
+.philo-container1{
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+    background: #DFE8E6;
+}
+
+.philo-container1 img{
+    width: 100%;
+    max-width: 620px;
+}
+
+.philo-container1 .philo-info, .philo-container2 .philo-info {
+    width: 43%;
+    display: felx;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+    text-align: center;
+    padding: 2vw;
+}
+
+.philo-container1 .philo-info h1{
+    margin-bottom: 5%;
+    margin-top: 10%;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.philo-container1 .philo-info p, .philo-container2 .philo-info p{
+    font-size: 19px;
+    font-weight: 100;
+    color: #333;
+    margin-top: 8%;
+}
+
+.philo-container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.6vw;
+}
+
+.philo-container2 img{
+    width: 100%;
+    max-width: 620px;
+}
