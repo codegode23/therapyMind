@@ -388,3 +388,51 @@ nav .contact-us:hover{
 .serve-box h2{
     font-weight: 200;
 }
+
+.services .serve-btn{
+    padding: 24px 50px;
+    background-color: #fff;
+    border: 1px solid #91D497;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    cursor:pointer;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 3vw;
+}
+
+.services .serve-btn:hover{
+    background-color: #91D497;
+    color: #fff;
+}
+
+.services .servbt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:400px) {
+    .services .serve-btn{
+        padding: 14px 20px;
+        background-color: #fff;
+        border: 1px solid #91D497;
+        color: #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+        position: relative;
+        text-align: center;
+        cursor:pointer;
+        width: 100%;
+        max-width: 200px;
+        margin-top: 5%;
+    }
+}
