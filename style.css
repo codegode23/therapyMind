@@ -418,23 +418,27 @@ nav .contact-us:hover{
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
+
+    .serve-title h1{
+        font-size: 7vw;
+    }
+
+    .serve-title h3{
+        font-size: 3.7vw;
+    }
     .services .serve-btn{
         padding: 14px 20px;
-        background-color: #fff;
-        border: 1px solid #91D497;
-        color: #000;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 10px;
-        position: relative;
-        text-align: center;
-        cursor:pointer;
         width: 100%;
         max-width: 200px;
-        margin-top: 5%;
+        margin-top: 6%;
     }
+    
+.serve-box img{
+    width: 100%;
+    max-width: 250px;
+}
+
 }
 
 
@@ -449,7 +453,7 @@ nav .contact-us:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     background: #DFE8E6;
 }
 
@@ -464,14 +468,13 @@ nav .contact-us:hover{
     text-align: center;
     padding: 2vw;
     width: 47vw;
-    border: 1px solid black;
 }
 
 .philo-container1 .philo-info h1{
     margin-bottom: 2%;
     margin-top: 10%;
     font-weight: 300;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 .philo-container1 .philo-info p{
@@ -485,7 +488,7 @@ nav .contact-us:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 
 .philo-container2 img{
@@ -494,7 +497,11 @@ nav .contact-us:hover{
 }
 
 .philo-container2 .philo-info {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 2vw;
     width: 47vw;
     border: 1px solid black;
@@ -506,4 +513,55 @@ nav .contact-us:hover{
     font-weight: 100;
     color: #333;
     margin-top: 18%;
+}
+
+.philo-btn{
+    padding: 24px 50px;
+    background-color: #fff;
+    border: 1px solid #91D497;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    cursor:pointer;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 3vw;
+}
+
+.philo-info .philo-btn:hover{
+    background-color: #91D497;
+    color: #fff;
+}
+
+@media screen and (max-width:500px) {
+    .philo-container1 .philo-info,
+     .philo-container2 .philo-info{
+        width: 100%;
+     }
+
+     .philo-container1 .philo-info h1{
+        margin-bottom: -2%;
+        margin-top: 3%;
+        font-size: 7vw;
+    }
+    
+    .philo-container1 .philo-info p, .philo-container2 .philo-info p{
+        font-size: 5vw;
+        margin-top: 4%;
+    }
+
+    .philo-container1 img, .philo-container2 img{
+        width: 100%;
+    }
+
+    .philo-info .philo-btn{
+        padding: 14px 20px;
+        width: 100%;
+        max-width: 200px;
+        margin-top: 6%;
+    }
 }
