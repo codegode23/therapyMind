@@ -447,47 +447,63 @@ nav .contact-us:hover{
 
 .philo-container1{
     display: flex;
-    gap: 2vw;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     background: #DFE8E6;
 }
 
 .philo-container1 img{
-    width: 100%;
-    max-width: 620px;
+    /* width: 100%; */
+    width: 50vw;
 }
 
-.philo-container1 .philo-info, .philo-container2 .philo-info {
-    width: 43%;
-    display: felx;
-    align-items: center;
+.philo-container1 .philo-info {
+    display: flex;
     flex-direction: column;
-    gap: 2vw;
     text-align: center;
     padding: 2vw;
+    width: 47vw;
+    border: 1px solid black;
 }
 
 .philo-container1 .philo-info h1{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     margin-top: 10%;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 3vw;
 }
 
-.philo-container1 .philo-info p, .philo-container2 .philo-info p{
-    font-size: 19px;
+.philo-container1 .philo-info p{
+    font-size: 1.7vw;
     font-weight: 100;
     color: #333;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .philo-container2{
     display: flex;
-    flex-wrap: wrap;
-    gap: 2.6vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
 }
 
 .philo-container2 img{
-    width: 100%;
-    max-width: 620px;
+    /* width: 100%; */
+    width: 49vw;
+}
+
+.philo-container2 .philo-info {
+    text-align: center;
+    padding: 2vw;
+    width: 47vw;
+    border: 1px solid black;
+}
+
+
+.philo-container2 .philo-info p{
+    font-size: 1.7vw;
+    font-weight: 100;
+    color: #333;
+    margin-top: 18%;
 }
