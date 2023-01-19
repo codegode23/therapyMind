@@ -75,21 +75,23 @@ nav .contact-us:hover{
     nav{
         position: absolute;
         top: -200%;
-        left: 20%;
         align-items: center;
         flex-direction: column;
         padding: 1%;
-        box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+        box-shadow: 0 4px 30px #91D497;
         background: #fff;
+        z-index: 999;
+        border-radius: 4px;
+        width: 80%;
     }
     nav.active{
-        top: 12%;
+        top: 15%;
     }
 
     nav a{
         font-size: 18px;
         padding: 3%;
-        border-bottom: 1px solid green;
+        border-bottom: 1px solid #91D497;
         width: 100%;
     }
 
@@ -504,7 +506,6 @@ nav .contact-us:hover{
     align-items: center;
     padding: 2vw;
     width: 47vw;
-    border: 1px solid black;
 }
 
 
@@ -512,7 +513,7 @@ nav .contact-us:hover{
     font-size: 1.7vw;
     font-weight: 100;
     color: #333;
-    margin-top: 18%;
+    margin-top: 10%;
 }
 
 .philo-btn{
@@ -535,6 +536,16 @@ nav .contact-us:hover{
 .philo-info .philo-btn:hover{
     background-color: #91D497;
     color: #fff;
+}
+
+@media screen and (max-width:800px) {
+    
+    .philo-info .philo-btn{
+        padding: 14px 20px;
+        width: 100%;
+        max-width: 200px;
+        margin-top: 6%;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -564,4 +575,22 @@ nav .contact-us:hover{
         max-width: 200px;
         margin-top: 6%;
     }
+}
+
+
+/*Footer Section Starts*/
+
+footer{
+    width: 100%;
+    height: 20vw;
+    background: #C2DAD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1{
+    letter-spacing: .5vw;
+    font-size: 6vw;
+    font-weight: 100;
 }
