@@ -5,9 +5,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
+
 
 
 header{
@@ -232,7 +233,8 @@ nav .contact-us:hover{
 
 @media screen and (max-width:824px) {
     .about .ab-info{
-        width: 100%;
+        width: 90%;
+        align-items: center;
     }
 
     .about img{
@@ -242,7 +244,7 @@ nav .contact-us:hover{
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .ab-info .abt-btn{
         padding: 14px 20px;
         background-color: #fff;
@@ -563,6 +565,7 @@ nav .contact-us:hover{
     .philo-container1 .philo-info p, .philo-container2 .philo-info p{
         font-size: 5vw;
         margin-top: 4%;
+        font-weight: 400;
     }
 
     .philo-container1 img, .philo-container2 img{
